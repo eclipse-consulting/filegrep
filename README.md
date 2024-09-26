@@ -1,2 +1,2 @@
 # filegrep
-how to search text files
+find . -type f -name "*.py" -exec grep -Hn -i "search_string" {} \;
